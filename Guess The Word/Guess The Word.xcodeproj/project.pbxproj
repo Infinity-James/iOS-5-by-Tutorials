@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A79EB57164C2FD10059A211 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A79EB56164C2FD10059A211 /* UIKit.framework */; };
+		1A79EB59164C2FD10059A211 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A79EB58164C2FD10059A211 /* Foundation.framework */; };
+		1A79EB5B164C2FD10059A211 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A79EB5A164C2FD10059A211 /* CoreGraphics.framework */; };
+		1A79EB61164C2FD10059A211 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB5F164C2FD10059A211 /* InfoPlist.strings */; };
+		1A79EB63164C2FD10059A211 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A79EB62164C2FD10059A211 /* main.m */; };
+		1A79EB67164C2FD10059A211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A79EB66164C2FD10059A211 /* AppDelegate.m */; };
+		1A79EB69164C2FD10059A211 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB68164C2FD10059A211 /* Default.png */; };
+		1A79EB6B164C2FD10059A211 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB6A164C2FD10059A211 /* Default@2x.png */; };
+		1A79EB6D164C2FD10059A211 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB6C164C2FD10059A211 /* Default-568h@2x.png */; };
+		1A79EB70164C2FD10059A211 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A79EB6F164C2FD10059A211 /* MasterViewController.m */; };
+		1A79EB76164C2FD10059A211 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB74164C2FD10059A211 /* MasterViewController.xib */; };
+		1A79EB80164C301F0059A211 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB7F164C301F0059A211 /* MyCell.xib */; };
+		1A79EB86164C37810059A211 /* object_backpack.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB82164C37810059A211 /* object_backpack.png */; };
+		1A79EB87164C37810059A211 /* object_banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB83164C37810059A211 /* object_banana.png */; };
+		1A79EB88164C37810059A211 /* object_hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB84164C37810059A211 /* object_hat.png */; };
+		1A79EB89164C37810059A211 /* object_pineapple.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A79EB85164C37810059A211 /* object_pineapple.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A79EB52164C2FD10059A211 /* Guess The Word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess The Word.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A79EB56164C2FD10059A211 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1A79EB58164C2FD10059A211 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A79EB5A164C2FD10059A211 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1A79EB5E164C2FD10059A211 /* Guess The Word-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Guess The Word-Info.plist"; sourceTree = "<group>"; };
+		1A79EB60164C2FD10059A211 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A79EB62164C2FD10059A211 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A79EB64164C2FD10059A211 /* Guess The Word-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Guess The Word-Prefix.pch"; sourceTree = "<group>"; };
+		1A79EB65164C2FD10059A211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A79EB66164C2FD10059A211 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A79EB68164C2FD10059A211 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1A79EB6A164C2FD10059A211 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1A79EB6C164C2FD10059A211 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1A79EB6E164C2FD10059A211 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		1A79EB6F164C2FD10059A211 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		1A79EB75164C2FD10059A211 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		1A79EB7F164C301F0059A211 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		1A79EB82164C37810059A211 /* object_backpack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_backpack.png; sourceTree = "<group>"; };
+		1A79EB83164C37810059A211 /* object_banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_banana.png; sourceTree = "<group>"; };
+		1A79EB84164C37810059A211 /* object_hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_hat.png; sourceTree = "<group>"; };
+		1A79EB85164C37810059A211 /* object_pineapple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = object_pineapple.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A79EB4F164C2FD10059A211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A79EB57164C2FD10059A211 /* UIKit.framework in Frameworks */,
+				1A79EB59164C2FD10059A211 /* Foundation.framework in Frameworks */,
+				1A79EB5B164C2FD10059A211 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A79EB47164C2FD10059A211 = {
+			isa = PBXGroup;
+			children = (
+				1A79EB81164C37810059A211 /* Resources */,
+				1A79EB5C164C2FD10059A211 /* Guess The Word */,
+				1A79EB55164C2FD10059A211 /* Frameworks */,
+				1A79EB53164C2FD10059A211 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A79EB53164C2FD10059A211 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A79EB52164C2FD10059A211 /* Guess The Word.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A79EB55164C2FD10059A211 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A79EB56164C2FD10059A211 /* UIKit.framework */,
+				1A79EB58164C2FD10059A211 /* Foundation.framework */,
+				1A79EB5A164C2FD10059A211 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A79EB5C164C2FD10059A211 /* Guess The Word */ = {
+			isa = PBXGroup;
+			children = (
+				1A79EB65164C2FD10059A211 /* AppDelegate.h */,
+				1A79EB66164C2FD10059A211 /* AppDelegate.m */,
+				1A79EB6E164C2FD10059A211 /* MasterViewController.h */,
+				1A79EB6F164C2FD10059A211 /* MasterViewController.m */,
+				1A79EB74164C2FD10059A211 /* MasterViewController.xib */,
+				1A79EB7F164C301F0059A211 /* MyCell.xib */,
+				1A79EB5D164C2FD10059A211 /* Supporting Files */,
+			);
+			path = "Guess The Word";
+			sourceTree = "<group>";
+		};
+		1A79EB5D164C2FD10059A211 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A79EB5E164C2FD10059A211 /* Guess The Word-Info.plist */,
+				1A79EB5F164C2FD10059A211 /* InfoPlist.strings */,
+				1A79EB62164C2FD10059A211 /* main.m */,
+				1A79EB64164C2FD10059A211 /* Guess The Word-Prefix.pch */,
+				1A79EB68164C2FD10059A211 /* Default.png */,
+				1A79EB6A164C2FD10059A211 /* Default@2x.png */,
+				1A79EB6C164C2FD10059A211 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A79EB81164C37810059A211 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A79EB82164C37810059A211 /* object_backpack.png */,
+				1A79EB83164C37810059A211 /* object_banana.png */,
+				1A79EB84164C37810059A211 /* object_hat.png */,
+				1A79EB85164C37810059A211 /* object_pineapple.png */,
+			);
+			name = Resources;
+			path = "Guess The Word/Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A79EB51164C2FD10059A211 /* Guess The Word */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A79EB7C164C2FD10059A211 /* Build configuration list for PBXNativeTarget "Guess The Word" */;
+			buildPhases = (
+				1A79EB4E164C2FD10059A211 /* Sources */,
+				1A79EB4F164C2FD10059A211 /* Frameworks */,
+				1A79EB50164C2FD10059A211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Guess The Word";
+			productName = "Guess The Word";
+			productReference = 1A79EB52164C2FD10059A211 /* Guess The Word.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A79EB49164C2FD10059A211 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "&Beyond";
+			};
+			buildConfigurationList = 1A79EB4C164C2FD10059A211 /* Build configuration list for PBXProject "Guess The Word" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A79EB47164C2FD10059A211;
+			productRefGroup = 1A79EB53164C2FD10059A211 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A79EB51164C2FD10059A211 /* Guess The Word */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A79EB50164C2FD10059A211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A79EB61164C2FD10059A211 /* InfoPlist.strings in Resources */,
+				1A79EB69164C2FD10059A211 /* Default.png in Resources */,
+				1A79EB6B164C2FD10059A211 /* Default@2x.png in Resources */,
+				1A79EB6D164C2FD10059A211 /* Default-568h@2x.png in Resources */,
+				1A79EB76164C2FD10059A211 /* MasterViewController.xib in Resources */,
+				1A79EB80164C301F0059A211 /* MyCell.xib in Resources */,
+				1A79EB86164C37810059A211 /* object_backpack.png in Resources */,
+				1A79EB87164C37810059A211 /* object_banana.png in Resources */,
+				1A79EB88164C37810059A211 /* object_hat.png in Resources */,
+				1A79EB89164C37810059A211 /* object_pineapple.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A79EB4E164C2FD10059A211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A79EB63164C2FD10059A211 /* main.m in Sources */,
+				1A79EB67164C2FD10059A211 /* AppDelegate.m in Sources */,
+				1A79EB70164C2FD10059A211 /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A79EB5F164C2FD10059A211 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A79EB60164C2FD10059A211 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A79EB74164C2FD10059A211 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A79EB75164C2FD10059A211 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A79EB7A164C2FD10059A211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A79EB7B164C2FD10059A211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A79EB7D164C2FD10059A211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guess The Word/Guess The Word-Prefix.pch";
+				INFOPLIST_FILE = "Guess The Word/Guess The Word-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A79EB7E164C2FD10059A211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Guess The Word/Guess The Word-Prefix.pch";
+				INFOPLIST_FILE = "Guess The Word/Guess The Word-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A79EB4C164C2FD10059A211 /* Build configuration list for PBXProject "Guess The Word" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A79EB7A164C2FD10059A211 /* Debug */,
+				1A79EB7B164C2FD10059A211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A79EB7C164C2FD10059A211 /* Build configuration list for PBXNativeTarget "Guess The Word" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A79EB7D164C2FD10059A211 /* Debug */,
+				1A79EB7E164C2FD10059A211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A79EB49164C2FD10059A211 /* Project object */;
+}

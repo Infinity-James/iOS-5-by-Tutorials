@@ -1,0 +1,6 @@
+surfboard images:
+  * http://www.sxc.hu/profile/DJSlane
+  * http://www.sxc.hu/profile/dreamaway
+  * http://www.sxc.hu/profile/tunnelvis
+all other images:
+  * By Vicki Wenderlich of http://www.vickiwenderlich.com

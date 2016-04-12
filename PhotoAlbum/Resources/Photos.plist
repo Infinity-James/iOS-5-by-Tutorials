@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PhotosArray</key>
+	<array>
+		<string>Abstract_1.jpg</string>
+		<string>Abstract_2.jpg</string>
+		<string>Beach.jpg</string>
+		<string>BlackWidow.jpg</string>
+		<string>Cathedral.jpg</string>
+		<string>Cousins_2.jpg</string>
+		<string>Cousins.jpg</string>
+		<string>Family.jpg</string>
+		<string>Feli.jpg</string>
+		<string>Fran.jpg</string>
+		<string>Fran_2.jpg</string>
+		<string>Headphones.jpg</string>
+		<string>IceCream.jpg</string>
+		<string>Keychain.jpg</string>
+		<string>Lambo.jpg</string>
+		<string>LamboSide.jpg</string>
+		<string>NightvisionGoggles.jpg</string>
+		<string>Phone.jpg</string>
+		<string>Piggy.jpg</string>
+		<string>Quito_2.jpg</string>
+		<string>Quito_3.jpg</string>
+		<string>Quito.jpg</string>
+		<string>Socom.jpg</string>
+		<string>Sofi_2.jpg</string>
+		<string>Sofi.jpg</string>
+		<string>Statue.jpg</string>
+		<string>Sundown.jpg</string>
+		<string>TV.jpg</string>
+		<string>Violin.jpg</string>
+		<string>Yummy.jpg</string>
+	</array>
+</dict>
+</plist>

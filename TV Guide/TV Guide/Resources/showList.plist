@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Breaking Barry</string>
+		<key>url</key>
+		<string>http://www.cbs.com</string>
+		<key>startDate</key>
+		<string>09/29/2012 19:00 PST</string>
+		<key>endDate</key>
+		<string>09/29/2012 19:30 PST</string>
+		<key>dayOfTheWeek</key>
+		<integer>5</integer>
+		<key>tip</key>
+		<string>What the hell is Barry thinking most of the time?</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Prison Break-In</string>
+		<key>url</key>
+		<string>http://www.fox.com/</string>
+		<key>startDate</key>
+		<string>09/25/2012 14:00 PST</string>
+		<key>endDate</key>
+		<string>09/25/2012 15:00 PST</string>
+		<key>dayOfTheWeek</key>
+		<integer>2</integer>
+		<key>tip</key>
+		<string>Jasons is secretly in love with his cell-mate, so he is gonna betray Paul.</string>
+	</dict>
+</array>
+</plist>

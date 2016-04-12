@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Keys</key>
+	<array>
+		<dict>
+			<key>key</key>
+			<string>T-Command</string>
+			<key>action</key>
+			<string>New Tab</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>T-Command-Shift</string>
+			<key>action</key>
+			<string>New Window</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>N-Command</string>
+			<key>action</key>
+			<string>New File</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>N-Command-Shift</string>
+			<key>action</key>
+			<string>New Project</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>N-Command-Control</string>
+			<key>action</key>
+			<string>New Workspace</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>N-Command-Option</string>
+			<key>action</key>
+			<string>New Group</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>A-Command-Option</string>
+			<key>action</key>
+			<string>Add Files To</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>O-Command</string>
+			<key>action</key>
+			<string>Open</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>O-Command-Shift</string>
+			<key>action</key>
+			<string>Open Quickly</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>W-Command</string>
+			<key>action</key>
+			<string>Close Window</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>W-Command-Control</string>
+			<key>action</key>
+			<string>Close Document</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>W-Command-Option</string>
+			<key>action</key>
+			<string>Close Project</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>S-Command</string>
+			<key>action</key>
+			<string>Save</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>S-Command-Option</string>
+			<key>action</key>
+			<string>Save All</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>S-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Save Multiple</string>
+			<key>menu</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>S-Command-Shift</string>
+			<key>action</key>
+			<string>Save As</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>C-Command-Option</string>
+			<key>action</key>
+			<string>Source Control Commit</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>X-Command-Option</string>
+			<key>action</key>
+			<string>Source Control Pull</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>S-Command-Control</string>
+			<key>action</key>
+			<string>Create Snapshot</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>P-Command-Shift</string>
+			<key>action</key>
+			<string>Page Setup</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>P-Command</string>
+			<key>action</key>
+			<string>Print</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Z-Command</string>
+			<key>action</key>
+			<string>Undo</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Z-Command-Shift</string>
+			<key>action</key>
+			<string>Redo</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>X-Command</string>
+			<key>action</key>
+			<string>Cut</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>C-Command</string>
+			<key>action</key>
+			<string>Copy</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>V-Command</string>
+			<key>action</key>
+			<string>Paste</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>V-Command-Option</string>
+			<key>action</key>
+			<string>Special Paste</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>V-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Paste and Preserve</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>D-Command</string>
+			<key>action</key>
+			<string>Duplicate</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Delete-Command</string>
+			<key>action</key>
+			<string>Delete</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>A-Command</string>
+			<key>action</key>
+			<string>Select All</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F-Command-Shift</string>
+			<key>action</key>
+			<string>Find in Workspace</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Find and Replace in Workspace</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F-Command</string>
+			<key>action</key>
+			<string>Find</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F-Command-Option</string>
+			<key>action</key>
+			<string>Find and Replace</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>G-Command</string>
+			<key>action</key>
+			<string>Find Next</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>G-Command-Shift</string>
+			<key>action</key>
+			<string>Find Previous</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>E-Command</string>
+			<key>action</key>
+			<string>Use Selection Bar for Find</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>E-Command-Shift</string>
+			<key>action</key>
+			<string>Use Selection for Replace</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>J-Command-Option</string>
+			<key>action</key>
+			<string>Filter in Navigator</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>L-Command-Option</string>
+			<key>action</key>
+			<string>Filter in Library</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>T-Command-Shift-Control</string>
+			<key>action</key>
+			<string>Show Fonts</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>C-Command-Shift-Control</string>
+			<key>action</key>
+			<string>Show Colors</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>:-Command</string>
+			<key>action</key>
+			<string>Show Spelling and Grammar</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>;-Command</string>
+			<key>action</key>
+			<string>Check Document Now</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>T-Command-Option</string>
+			<key>action</key>
+			<string>Special Characters</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Enter-Command</string>
+			<key>action</key>
+			<string>Show Standard Editor</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>1-Control</string>
+			<key>action</key>
+			<string>Show Related Items</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>2-Control</string>
+			<key>action</key>
+			<string>Show Previous History</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>2-Command-Control</string>
+			<key>action</key>
+			<string>Show Previous Files History</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>3-Control</string>
+			<key>action</key>
+			<string>Show Next History</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>3-Command-Control</string>
+			<key>action</key>
+			<string>Show Next Files History</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>4-Control</string>
+			<key>action</key>
+			<string>Show Top Level Items</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>5-Control</string>
+			<key>action</key>
+			<string>Show Group Files</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>6-Control</string>
+			<key>action</key>
+			<string>Show Document Items</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Enter-Command-Option</string>
+			<key>action</key>
+			<string>Show Assist Ed</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>W-Command-Shift-Control</string>
+			<key>action</key>
+			<string>Remove Assist Ed</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Z-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Reset Editor</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Enter-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Show Version Editor</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>1-Command</string>
+			<key>action</key>
+			<string>Show Project Navigator</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>2-Command</string>
+			<key>action</key>
+			<string>Show Symbol Navigator</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>3-Command</string>
+			<key>action</key>
+			<string>Show Search Navigator</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>5-Command</string>
+			<key>action</key>
+			<string>Show Debug Navigator</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>6-Command</string>
+			<key>action</key>
+			<string>Show Breakpoint Navigator</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>7-Command</string>
+			<key>action</key>
+			<string>Show Log Navigator</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>0-Command</string>
+			<key>action</key>
+			<string>Show Navigator</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>C-Command-Shift</string>
+			<key>action</key>
+			<string>Activate Console</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Y-Command-Shift</string>
+			<key>action</key>
+			<string>Show Debug Area</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>1-Command-Option</string>
+			<key>action</key>
+			<string>Show File Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>3-Command-Option</string>
+			<key>action</key>
+			<string>Show Mapping Model Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>7-Command-Option</string>
+			<key>action</key>
+			<string>Show Bindings Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>4-Command-Option</string>
+			<key>action</key>
+			<string>Show Attributes Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>2-Command-Option</string>
+			<key>action</key>
+			<string>Show Quick Help Inpector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>8-Command-Option</string>
+			<key>action</key>
+			<string>Show View Effects Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>3-Command-Option</string>
+			<key>action</key>
+			<string>Show Identity Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>3-Command-Option</string>
+			<key>action</key>
+			<string>Show Data Model Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>5-Command-Option</string>
+			<key>action</key>
+			<string>Show Size Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>6-Command-Option</string>
+			<key>action</key>
+			<string>Show Connections Inspector</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>1-Command-Option-Control</string>
+			<key>action</key>
+			<string>Show File Template Library</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>2-Command-Option-Control</string>
+			<key>action</key>
+			<string>Show Code Snippet Library</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>3-Command-Option-Control</string>
+			<key>action</key>
+			<string>Show Object Library</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>4-Command-Option-Control</string>
+			<key>action</key>
+			<string>Show Media Library</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>0-Command-Option</string>
+			<key>action</key>
+			<string>Show Utilities</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F-Command-Option</string>
+			<key>action</key>
+			<string>Enter Full Screen</string>
+			<key>menu</key>
+			<string>View</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>J-Command-Shift</string>
+			<key>action</key>
+			<string>Reveal in Project Nav</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>,-Command-Option</string>
+			<key>action</key>
+			<string>Open in Assist Ed</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>&lt;-Command-Option</string>
+			<key>action</key>
+			<string>Open in</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>.-Command-Option</string>
+			<key>action</key>
+			<string>Move Focus To Next Area</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>J-Command</string>
+			<key>action</key>
+			<string>Move Focus To Editor</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>→-Command-Control</string>
+			<key>action</key>
+			<string>Go Forward</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>←-Command-Control</string>
+			<key>action</key>
+			<string>Go Back</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>L-Command-Shift</string>
+			<key>action</key>
+			<string>Jump to Selection</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>J-Command-Control</string>
+			<key>action</key>
+			<string>Jump to Definition</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>???-Command</string>
+			<key>action</key>
+			<string>Jump to Next Issue</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>???-Command-Control</string>
+			<key>action</key>
+			<string>Fix Next Issue</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>??-Command</string>
+			<key>action</key>
+			<string>Jump to Previous Issue</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>??-Command-Control</string>
+			<key>action</key>
+			<string>Fix Previous Issue</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>↑-Command-Control</string>
+			<key>action</key>
+			<string>Jump to Next Cpart</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>↓-Command-Control</string>
+			<key>action</key>
+			<string>Jump to Previous Cpart </string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>L-Command</string>
+			<key>action</key>
+			<string>Jump in Current File</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>/-Control</string>
+			<key>action</key>
+			<string>Jump to Next Placeholder</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>?-Control</string>
+			<key>action</key>
+			<string>Jump to Previous Placeholder</string>
+			<key>menu</key>
+			<string>Navigate</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>O-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Overwrite Mode</string>
+			<key>menu</key>
+			<string>Editor (Hex)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>[-Command</string>
+			<key>action</key>
+			<string>Align Left Edges</string>
+			<key>menu</key>
+			<string>Editor (IB)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>]-Command</string>
+			<key>action</key>
+			<string>Align Right Edges</string>
+			<key>menu</key>
+			<string>Editor (IB)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>=-Command</string>
+			<key>action</key>
+			<string>Size to Fit Content</string>
+			<key>menu</key>
+			<string>Editor (IB)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>|-Command-Option</string>
+			<key>action</key>
+			<string>Zoom to 100%</string>
+			<key>menu</key>
+			<string>Editor (IB)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>}-Command-Option</string>
+			<key>action</key>
+			<string>Zoom In</string>
+			<key>menu</key>
+			<string>Editor (IB)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>{-Command-Option</string>
+			<key>action</key>
+			<string>Zoom Out</string>
+			<key>menu</key>
+			<string>Editor (IB)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>_-Command</string>
+			<key>action</key>
+			<string>Add Horizontal Guide</string>
+			<key>menu</key>
+			<string>Editor (IB)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>|-Command</string>
+			<key>action</key>
+			<string>Add Vertical Guide</string>
+			<key>menu</key>
+			<string>Editor (IB)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>↓-Command-Option</string>
+			<key>action</key>
+			<string>Next Page</string>
+			<key>menu</key>
+			<string>Editor (PDF)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>↑-Command-Option</string>
+			<key>action</key>
+			<string>Previous Page</string>
+			<key>menu</key>
+			<string>Editor (PDF)</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Space-Control</string>
+			<key>action</key>
+			<string>Show Completions</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>E-Command-Control</string>
+			<key>action</key>
+			<string>Edit All in Scope</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F-Command-Option-Control</string>
+			<key>action</key>
+			<string>Fix All in Scope</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>M-Command-Conrtol</string>
+			<key>action</key>
+			<string>Show All Issues</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>I-Control</string>
+			<key>action</key>
+			<string>Re-Indent</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>]-Command</string>
+			<key>action</key>
+			<string>Shift Right</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>[-Command</string>
+			<key>action</key>
+			<string>Shift Left</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>[-Command-Option</string>
+			<key>action</key>
+			<string>Move Line Up</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>]-Command-Option</string>
+			<key>action</key>
+			<string>Move Line Down</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>/-Command</string>
+			<key>action</key>
+			<string>Comment Selection</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>←-Command-Option</string>
+			<key>action</key>
+			<string>Fold</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>→-Command-Option</string>
+			<key>action</key>
+			<string>Unfold</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>←-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Fold Methods &amp; Funcs</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>→-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Unfold Methods &amp; Funcs</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>←-Command-Shift-Control</string>
+			<key>action</key>
+			<string>Fold Comment Blocks</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>→-Command-Shift-Control</string>
+			<key>action</key>
+			<string>Unfold Comment Blocks</string>
+			<key>menu</key>
+			<string>Editor</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>R-Command</string>
+			<key>action</key>
+			<string>Run</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>U-Command</string>
+			<key>action</key>
+			<string>Test</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>I-Command</string>
+			<key>action</key>
+			<string>Profile</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>B-Command-Shift</string>
+			<key>action</key>
+			<string>Analyze</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>A-Command-Shift</string>
+			<key>action</key>
+			<string>Install</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>R-Command-Shift</string>
+			<key>action</key>
+			<string>Build For Running</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>U-Command-Shift</string>
+			<key>action</key>
+			<string>Build For Testing</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>I-Command-Shift</string>
+			<key>action</key>
+			<string>Build For Profiling</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>R-Command-Control</string>
+			<key>action</key>
+			<string>Run w/o Building</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>U-Command-Control</string>
+			<key>action</key>
+			<string>Test w/o Building</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>I-Command-Control</string>
+			<key>action</key>
+			<string>Profile w/o Building</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>B-Command</string>
+			<key>action</key>
+			<string>Build</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>K-Command-Shift</string>
+			<key>action</key>
+			<string>Clean</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>K-Command-Shift-Option</string>
+			<key>action</key>
+			<string>Clean Build Folder</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Y-Command-Control</string>
+			<key>action</key>
+			<string>Pause</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>C-Command-Control</string>
+			<key>action</key>
+			<string>Continue To Cu Line</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F6</string>
+			<key>action</key>
+			<string>Step Over</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F7</string>
+			<key>action</key>
+			<string>Step Into</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F8</string>
+			<key>action</key>
+			<string>Step Out</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F6-Control</string>
+			<key>action</key>
+			<string>Step Over Instr</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F6-Shift-Control</string>
+			<key>action</key>
+			<string>Step Over Thread</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F7-Control</string>
+			<key>action</key>
+			<string> Step Into Instr</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>F7-Shift-Control</string>
+			<key>action</key>
+			<string>Step Into Thread</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>\-Command</string>
+			<key>action</key>
+			<string>Add Breakpoint at Cur Line</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Y-Command</string>
+			<key>action</key>
+			<string>Deactivate Breakpoints</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>M-Command-Shift</string>
+			<key>action</key>
+			<string>View Memory</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>K-Command</string>
+			<key>action</key>
+			<string>Clear Console</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>&lt;-Command</string>
+			<key>action</key>
+			<string>Edit Scheme</string>
+			<key>menu</key>
+			<string>Product</string>
+		</dict>		
+		<dict>
+			<key>key</key>
+			<string>M-Command</string>
+			<key>action</key>
+			<string>Minimize</string>
+			<key>menu</key>
+			<string>Window</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>}-Command</string>
+			<key>action</key>
+			<string>Select Next Tab</string>
+			<key>menu</key>
+			<string>Window</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Select Previous Tab </string>
+			<key>action</key>
+			<string>{-Command</string>
+			<key>menu</key>
+			<string>Window</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>1-Command-Shift</string>
+			<key>action</key>
+			<string>Welcome to Xcode</string>
+			<key>menu</key>
+			<string>Window</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>2-Command-Shift</string>
+			<key>action</key>
+			<string>Organizer</string>
+			<key>menu</key>
+			<string>Window</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>?-Command-Option</string>
+			<key>action</key>
+			<string>Docs and API Ref</string>
+			<key>menu</key>
+			<string>Help</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>?-Command-Control</string>
+			<key>action</key>
+			<string>Quick Help for Sel Item</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>/-Command-Option-Control</string>
+			<key>action</key>
+			<string>Search Docs for Sel Text</string>
+			<key>menu</key>
+			<string>Help</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>,-Command</string>
+			<key>action</key>
+			<string>Preferences</string>
+			<key>menu</key>
+			<string>Xcode</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>H-Command</string>
+			<key>action</key>
+			<string>Hide Xcode</string>
+			<key>menu</key>
+			<string>Xcode</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>H-Command-Option</string>
+			<key>action</key>
+			<string>Hide Others</string>
+			<key>menu</key>
+			<string>Xcode</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Q-Command</string>
+			<key>action</key>
+			<string>Quit Xcode</string>
+			<key>menu</key>
+			<string>Xcode</string>
+		</dict>
+	</array>
+	<key>Menus</key>
+	<array>
+		<string>Xcode</string>
+		<string>File</string>
+		<string>Edit</string>
+		<string>View</string>
+		<string>Navigate</string>
+		<string>Editor</string>
+		<string>Editor (IB)</string>
+		<string>Editor (PDF)</string>
+		<string>Editor (Hex)</string>
+		<string>Product</string>
+		<string>Window</string>
+		<string>Help</string>
+	</array>
+</dict>
+</plist>

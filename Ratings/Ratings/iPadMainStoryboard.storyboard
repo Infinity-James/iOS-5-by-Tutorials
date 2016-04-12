@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C3006" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="iwP-nS-I91">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+    </dependencies>
+    <scenes>
+        <!--Detail Controller-->
+        <scene sceneID="DSi-OC-4uL">
+            <objects>
+                <viewController id="sea-2R-hHi" customClass="DetailController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bpg-fe-Vqw">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQ6-2e-OsI">
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bke-d1-Zkb"/>
+                                    <barButtonItem title="Menu" id="cP7-Ke-TEi">
+                                        <connections>
+                                            <segue destination="jjD-a8-NJm" kind="popover" identifier="ShowPopover" popoverAnchorBarButtonItem="cP7-Ke-TEi" id="3Ot-6T-auu">
+                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                            </segue>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iQ6-2e-OsI" firstAttribute="top" secondItem="bpg-fe-Vqw" secondAttribute="top" type="default" id="NNF-9Q-VQH"/>
+                            <constraint firstItem="iQ6-2e-OsI" firstAttribute="leading" secondItem="bpg-fe-Vqw" secondAttribute="leading" type="default" id="TAE-RI-I17"/>
+                            <constraint firstItem="iQ6-2e-OsI" firstAttribute="trailing" secondItem="bpg-fe-Vqw" secondAttribute="trailing" type="default" id="heT-C6-Hbl"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="toolbar" destination="iQ6-2e-OsI" id="wOz-dQ-Zm3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZK-NO-DYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2814" y="-583"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Y2w-3t-9rE">
+            <objects>
+                <viewController id="jjD-a8-NJm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="txJ-lE-xQ3">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ySc-mQ-aHL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1802" y="-271"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="Ha8-J4-KZw">
+            <objects>
+                <splitViewController id="iwP-nS-I91" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <connections>
+                        <segue destination="sea-2R-hHi" kind="relationship" relationship="detailViewController" id="qEX-23-o72"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wf5-3x-xfX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3892" y="-583"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

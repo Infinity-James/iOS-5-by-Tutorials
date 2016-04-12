@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Keys</key>
+	<array>
+		<dict>
+			<key>key</key>
+			<string>N-Command</string>
+			<key>action</key>
+			<string>New File</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>O-Command</string>
+			<key>action</key>
+			<string>Open File</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>Z-Command</string>
+			<key>action</key>
+			<string>Undo</string>
+			<key>menu</key>
+			<string>Edit</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>O-Shift-Command</string>
+			<key>action</key>
+			<string>Browse in Bridge</string>
+			<key>menu</key>
+			<string>File</string>
+		</dict>
+	</array>
+	<key>Menus</key>
+	<array>
+		<string>File</string>
+		<string>Edit</string>
+	</array>
+</dict>
+</plist>
